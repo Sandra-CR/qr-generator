@@ -1,0 +1,33 @@
+# Dépendances gérées par Composer
+/vendor/
+
+# Fichiers d'environnement et secrets
+.env
+.env.local
+.env.*.local
+
+# Fichiers temporaires, logs et cache
+*.log
+/var/
+/tmp/
+.phpunit.result.cache
+
+# Outils de qualité de code
+.php-cs-fixer.cache
+.phpunit.cache/
+
+# Fichiers spécifiques aux OS
+.DS_Store
+Thumbs.db
+
+# Configurations d'éditeurs et IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers d'archive et uploads temporaires
+*.tar
+*.gz
+*.zip
+/public/uploads/
